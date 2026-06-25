@@ -35,7 +35,7 @@ function LandingPage() {
           </div>
         ))}
         <p className="mt-4 md:mt-6 text-zinc-400 text-base md:text-xl lg:text-2xl max-w-2xl leading-relaxed">
-          Software Engineer & Frontend Developer at Peham. Building MERN stack
+          Software Engineer & Frontend Developer. Building MERN stack
           applications with modern UI/UX.
         </p>
       </div>
