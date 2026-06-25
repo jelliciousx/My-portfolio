@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-// import msbEnergy from "./assets/msb-energy.png";
+import msbEnergy from "./assets/MSB-Energy.png";
 import jobSphere from "./assets/jobsphere.png";
 // import fixFinder from "./assets/fixfinder.png";
 
@@ -11,8 +11,8 @@ const projects = [
     title: "MSB Energy Group",
     description:
       "Full-stack ecosystem with 3 sub-websites (Logistics, Petroleum, ECON LPG). Features auth system, admin dashboard, Stripe payments, subscription plans, and a custom RAG-based chatbot.",
-    image: null, // Replace with import when you have the photo
-    link: "#", // Replace with live URL
+    image: msbEnergy,
+    link: "https://msb-energy.netlify.app/#home", // Replace with live URL
     repo: "#", // Replace with GitHub URL
     tags: ["React", "Redux", "Node.js", "MongoDB", "Stripe", "Cloudinary"],
   },
