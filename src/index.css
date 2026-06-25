@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for desktop/laptop */
+@media (min-width: 768px) {
+  [data-scroll-container]::-webkit-scrollbar {
+    display: none;
+  }
+  
+  [data-scroll-container] {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Ensure mobile has normal scrolling behavior */
+@media (max-width: 767px) {
+  [data-scroll-container] {
+    overflow: auto;
+  }
+}
+
