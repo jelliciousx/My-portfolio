@@ -8,9 +8,9 @@ import jobSphere from "./assets/jobsphere.png";
 const projects = [
   {
     id: "msb-energy",
-    title: "MSB Energy Group",
-    description:
-      "Full-stack ecosystem with 3 sub-websites (Logistics, Petroleum, ECON LPG). Features auth system, admin dashboard, Stripe payments, subscription plans, and a custom RAG-based chatbot.",
+    title: "MSB Energy",
+    // description:
+    // "Full-stack ecosystem with 3 sub-websites (Logistics, Petroleum, ECON LPG). Features auth system, admin dashboard, Stripe payments, subscription plans, and a custom RAG-based chatbot.",
     image: msbEnergy,
     link: "https://msb-energy.netlify.app/#home", // Replace with live URL
     repo: "#", // Replace with GitHub URL
@@ -19,8 +19,8 @@ const projects = [
   {
     id: "jobsphere",
     title: "JobSphere",
-    description:
-      "Job provision platform with backend workflow handling authentication, resume uploads, and admin evaluation modules for approving or rejecting applicants.",
+    // description:
+    // "Job provision platform with backend workflow handling authentication, resume uploads, and admin evaluation modules for approving or rejecting applicants.",
     image: jobSphere,
     link: "https://jobsphereofficial.netlify.app/",
     repo: "https://github.com/jelliciousx/JobSphere",
@@ -28,13 +28,13 @@ const projects = [
   },
   {
     id: "fixfinder",
-    title: "FixFinder Web App",
-    description:
-      "Service marketplace connecting users with local providers. Built optimized search, filtration, and scheduling with a scalable Express.js backend.",
+    title: "FixFinder",
+    // description:
+    // "Service marketplace connecting users with local providers. Built optimized search, filtration, and scheduling with a scalable Express.js backend.",
     image: null,
     link: "#",
     repo: "#",
-    tags: ["Express.js", "JavaScript", "HTML", "Fetch API"],
+    tags: ["Express.js", "JavaScript", "HTML", "Fetch API", "CSS", "MongoDB"],
   },
 ];
 
@@ -82,11 +82,11 @@ function Projects() {
                 ) : (
                   <div className="w-full h-full bg-zinc-200 flex flex-col items-center justify-center gap-4">
                     <div className="w-16 h-16 rounded-full bg-zinc-300 flex items-center justify-center">
-                      <span className="text-2xl font-bold text-zinc-500">
+                      <span className="text-2xl font-bold text-black">
                         {project.title[0]}
                       </span>
                     </div>
-                    <span className="text-zinc-500 text-sm font-medium">
+                    <span className="text-black text-sm font-medium">
                       Add Project Photo
                     </span>
                   </div>
@@ -94,7 +94,7 @@ function Projects() {
               </div>
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/90 via-zinc-900/30 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500" />
+              <div className="absolute inset-0 bg-zinc-900 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500" />
 
               {/* Content */}
               <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
