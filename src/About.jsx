@@ -136,7 +136,7 @@ function About() {
             Professional Summary
           </h3>
 
-          <div className="space-y-4 text-zinc-300 leading-relaxed text-base md:text-lg">
+          <div className="space-y-4 text-zinc-300 leading-relaxed text-base md:text-lg text-justify">
             <p>
               I am a <strong className="text-white">Frontend Developer</strong>{" "}
               at <strong className="text-emerald-400">Peham</strong> (Oct 2025 –
